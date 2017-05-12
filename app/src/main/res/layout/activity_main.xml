@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.darek.lekcja5.MainActivity">
+    <!--
+    android:background="#e2ecfe"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nagraj_audio"
+        android:textSize="30sp"
+        android:id="@+id/textView1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:text="@string/nagraj"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button3" >
+    </Button>
+    <Button
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_nagranie"
+        android:id="@+id/button4"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/odtworz"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button5" >
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button6" >
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dial"
+        android:textSize="30sp"
+        android:layout_below="@+id/button6"
+        android:id="@+id/textView2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:text="@string/hello"
+        android:id="@+id/btnNewAlertDialog" >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/btnNewAlertDialog"
+        android:text="@string/custom"
+        android:id="@+id/btnNewCustomAlertDialog" >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/btnNewCustomAlertDialog"
+        android:text="@string/player"
+        android:id="@+id/btnNewAlertDialogList" >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/btnNewAlertDialogList"
+        android:text="@string/stopmusic"
+        android:id="@+id/button2" >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/button2"
+        android:text="@string/exit"
+        android:id="@+id/btnNewAlertDialogButton" >
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tele"
+        android:textSize="30sp"
+        android:layout_below="@+id/btnNewAlertDialogButton"
+        android:id="@+id/textView"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:id="@+id/telephones"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+        </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

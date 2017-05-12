@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">TeleInfo</string>
+    <string name="tele">Lista telefonów:</string>
+    <string-array name="telephones">
+        <item>LG G6</item>
+        <item>Samsung Galaxy S8</item>
+        <item>Huawei P9 Lite</item>
+        <item>Xiaomi Redmi 4A</item>
+        <item>Sony Xperia E5</item>
+    </string-array>
+    <string name="specs">Specyfikacja:</string>
+    <string-array name="specification1">
+        <item>Wymiary:              148,90 x 71,90 x 7,90 mm</item>
+        <item>Waga:                 163,00 g</item>
+        <item>Wyświetlacz:          1440 x 2880 px (5,70") 565 ppi</item>
+        <item>Standardowa bateria:  Li-Ion 3300 mAh</item>
+        <item>Pamięć wbudowana:     32 GB</item>
+        <item>Pamięć RAM:           4 GB</item>
+        <item>System operacyjny:    Android 7.1 Nougat</item>
+        <item>Procesor:             Qualcomm Snapdragon 821 8996</item>
+        <item>Aparat tył:           13 Mpx</item>
+        <item>Aparat przód:         13 Mpx</item>
+        <item>Wprowadzony na rynek: I kwartał 2017</item>
+    </string-array>
+    <string-array name="specification2">
+        <item>Wymiary:              148,90 x 68,10 x 8,00 mm</item>
+        <item>Waga:                 155,00 g</item>
+        <item>Wyświetlacz:          1440 x 2960 px (5,80") 568 ppi</item>
+        <item>Standardowa bateria:  Li-Ion 3000 mAh</item>
+        <item>Pamięć wbudowana:     64 GB</item>
+        <item>Pamięć RAM:           4 GB</item>
+        <item>System operacyjny:    Android 7.0 Nougat</item>
+        <item>Procesor:             Samsung Exynos 8895</item>
+        <item>Aparat tył:           12 Mpx</item>
+        <item>Aparat przód:         8 Mpx</item>
+        <item>Wprowadzony na rynek: II kwartał 2017</item>
+    </string-array>
+    <string-array name="specification3">
+        <item>Wymiary:              146,80 x 72,60 x 7,50 mm</item>
+        <item>Waga:                 147,00 g</item>
+        <item>Wyświetlacz:          1080 x 1920 px (5,20") 424 ppi</item>
+        <item>Standardowa bateria:  Li-Ion 3000 mAh</item>
+        <item>Pamięć wbudowana:     16 GB</item>
+        <item>Pamięć RAM:           2 GB, 3 GB</item>
+        <item>System operacyjny:    Android 6.0.1 Marshmallow</item>
+        <item>Procesor:             HiSilicon Kirin 650</item>
+        <item>Aparat tył:           13 Mpx</item>
+        <item>Aparat przód:         8 Mpx</item>
+        <item>Wprowadzony na rynek: II kwartał 2016</item>
+    </string-array>
+    <string-array name="specification4">
+        <item>Wymiary:              139,90 x 70,40 x 8,50 mm</item>
+        <item>Waga:                 131,50 g</item>
+        <item>Wyświetlacz:          720 x 1280 px (5,00") 294 ppi</item>
+        <item>Standardowa bateria:  Li-Ion 3120 mAh</item>
+        <item>Pamięć wbudowana:     16 GB</item>
+        <item>Pamięć RAM:           2 GB</item>
+        <item>System operacyjny:    Android</item>
+        <item>Procesor:             Qualcomm Snapdragon 425 8917</item>
+        <item>Aparat tył:           13 Mpx</item>
+        <item>Aparat przód:         5 Mpx</item>
+        <item>Wprowadzony na rynek: IV kwartał 2016</item>
+    </string-array>
+    <string-array name="specification5">
+        <item>Wymiary:              144,00 x 69,00 x 8,20 mm</item>
+        <item>Waga:                 147,00 g</item>
+        <item>Wyświetlacz:          720x1280 px (5,00")</item>
+        <item>Standardowa bateria:  Li-Ion 2300 mAh</item>
+        <item>Pamięć wbudowana:     16 GB</item>
+        <item>Pamięć RAM:           1,5 GB</item>
+        <item>System operacyjny:    Android 6.0 Marshmallow</item>
+        <item>Procesor:             MediaTek MT6735</item>
+        <item>Aparat tył:           13 Mpx</item>
+        <item>Aparat przód:         5 Mpx</item>
+        <item>Wprowadzony na rynek: II kwartał 2016</item>
+    </string-array>
+    <string-array name="specificationtest">
+        <item>Wymiary:</item>
+        <item>144,00 x 69,00 x 8,20 mm</item>
+        <item>Waga:</item>
+        <item>147,00</item>
+    </string-array>
+    <string name="pow">Powrót do listy telefonów</string>
+    <string name="dial">Dialogi:</string>
+    <string name="hello">Powitanie</string>
+    <string name="custom">HeHe</string>
+    <string name="player">Odtwarzanie muzyki</string>
+    <string name="exit">Wyjście</string>
+    <string name="play1">Odtwórz 1</string>
+    <string name="stop">Zatrzymaj</string>
+    <string name="stopmusic">Zatrzymaj muzyke</string>
+    <string name="nagraj_audio">Audio recording:</string>
+    <string name="nagraj">Nagraj</string>
+    <string name="odtworz">Odtwórz</string>
+    <string name="zapisz">Zapisz</string>
+    <string name="stop_nagranie">Stop</string>
+</resources>
